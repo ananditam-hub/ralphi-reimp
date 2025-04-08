@@ -7,4 +7,4 @@ The above procedure can be time and memory heavy since the file is **10 GB** hug
 ## Other Tools Used:
 Samtools: [https://github.com/samtools/samtools.git](https://github.com/samtools/samtools.git) <br/>
 Bcftools: [https://github.com/samtools/bcftools.git](https://github.com/samtools/bcftools.git) <br/>
-Whatshap: [https://github.com/whatshap/whatshap/tree/bb7ccfffc655072451d642b4eea9661f96b345af](https://github.com/whatshap/whatshap/tree/bb7ccfffc655072451d642b4eea9661f96b345af) <br/>
+WhatsHap: [https://github.com/whatshap/whatshap/tree/bb7ccfffc655072451d642b4eea9661f96b345af](https://github.com/whatshap/whatshap/tree/bb7ccfffc655072451d642b4eea9661f96b345af) <br/>
