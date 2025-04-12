@@ -10,11 +10,7 @@ On implementing ralphi on chromosomes 4, 14 and, 22 (chosen at random), of NA128
 <img src="https://github.com/user-attachments/assets/665a5624-118c-44ec-b44b-cd5c0b824298" width="300"/> <br/>
 And for chromosomes 1, 14 and, 22 with 30x coverage: <br/>
 <img src="https://github.com/user-attachments/assets/4dbf6d55-a624-492e-874f-eeefe4cbe635" width="300"/>
-
-
-
-
-Whatshap
+Phasing quality, if measured by switch rate, can be seen to improve as we go from low coverage to high coverage for all tools.
 
 
 ## Other Tools Used:
