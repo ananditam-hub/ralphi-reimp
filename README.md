@@ -11,7 +11,12 @@ On implementing ralphi on chromosomes 4, 14 and 22 (chosen at random), of NA1287
 <img src="https://github.com/user-attachments/assets/665a5624-118c-44ec-b44b-cd5c0b824298" width="350"/> <br/>
 And for chromosomes 1, 14 and 22 with 30x coverage (we leave out LongPhase here due to longer execution time, will update soon): <br/>
 <img src="https://github.com/user-attachments/assets/4dbf6d55-a624-492e-874f-eeefe4cbe635" width="350"/> <br/>
-Phasing quality, if measured by switch rate, can be seen to improve as we go from low coverage to high coverage for all tools. Ralphi makes significant improvements in achieving accuracy from its previous formulation as in RefHap based on maximum fragment cut formulation. Its results can be seen comparable to that of HapCUT2, a tool based on Minimum Error Correction (MEC) formulation, another state-of-the-art technique.
+Phasing quality, as measured by switch rate, improves consistently from low to high coverage across all tools. Ralphi makes significant improvements in achieving accuracy from its previous formulation as in RefHap based on maximum fragment cut formulation. Its results can be seen comparable to that of HapCUT2, a tool based on Minimum Error Correction (MEC) formulation, another state-of-the-art technique.
+**Time Comparison:** For chr22 of 30x coverage NA12878 human genome the following is the time taken by each of the four* tools: <br/><br/>
+**WhatsHap:** 3m47.923s <br/>
+**Ralphi:** 3m17.995s <br/>
+**HapCUT2:** 
+
 
 
 ## Other Tools Used:
