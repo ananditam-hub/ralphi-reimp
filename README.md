@@ -4,6 +4,9 @@ Use this link to download the .cram file corresponding to NA12878: [Internationa
 Unlike WhatsHap, Ralphi isn't compatible with .cram files. The following commands of samtools can be used to convert the .cram file to .bam file and index the same: `samtools view -b -o output.bam input.cram` and `samtools index input.bam`. The latter results in a .bam.bai file which is the index file and should be placed in the same directory as the .bam. <br/>
 The above procedure can be time and memory heavy since the file is **10 GB** huge, thus it is advised to used suitable resources when using this phasing tool.
 <br/>
+## Result Summary
+![results_plot](https://github.com/user-attachments/assets/e7d17510-3eae-467e-b7ca-9760df1223a5)
+
 ## Other Tools Used:
 Samtools: [https://github.com/samtools/samtools.git](https://github.com/samtools/samtools.git) <br/>
 Bcftools: [https://github.com/samtools/bcftools.git](https://github.com/samtools/bcftools.git) <br/>
