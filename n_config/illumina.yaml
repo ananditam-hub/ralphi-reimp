@@ -1,9 +1,9 @@
 #### REQUIRED ####
 platform: "illumina" # sequencing platform (options: ONT or illumina)
-bam: "/home/anandita/ralphi/s_data/sorted_pacbio.bam"  # path to the BAM alignments file
-vcf: "/home/anandita/ralphi/s_data/sample_unphased.vcf.gz"   # path to the VCF variant file (must be compressed and indexed)
-#reference: "/home/anandita/ralphi/t_data/GRCh38_full_analysis_set_plus_decoy_hla.fa"  # path to the reference genome (must be indexed) NOT REQUIRED FOR ILLUMINA BUT COMPROMISES PHASING QUALITY WITHOUT
-model: "/home/anandita/ralphi/data/models/ralphi.v1.short.pt"  # path to the pretrained ralphi model for Illumina reads
+bam: "/path/to/bam"  # path to the BAM alignments file
+vcf: "/path/to/vcf.gz"   # path to the VCF variant file (must be compressed and indexed)
+reference: "/path/to/ref"  # path to the reference genome (must be indexed) NOT REQUIRED FOR ILLUMINA BUT COMPROMISES PHASING QUALITY WITHOUT
+model: "/path/to/ralphi/data/models/ralphi.v1.short.pt"  # path to the pretrained ralphi model for Illumina reads
 #### OPTIONAL ####
 chr_names: null  # list of chromosomes to process: null (all) or a specific list e.g. ["chr1", "chr21"]
 n_procs: 22  # number of cores (used to process chromosomes in parallel)
