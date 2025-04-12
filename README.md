@@ -8,7 +8,7 @@ The above procedure can be time and memory heavy since the file is **10 GB** hug
 On implementing ralphi on chromosomes 4, 14 and, 22 (chosen at random), of NA12878 with 5x coverage, without reference data, we get the following plot:
 
 <img src="https://github.com/user-attachments/assets/665a5624-118c-44ec-b44b-cd5c0b824298" width="300"/> <br/>
-And for chromosomes 1, 14 and, 22 with 30x coverage
+And for chromosomes 1, 14 and, 22 with 30x coverage: <br/>
 <img src="https://github.com/user-attachments/assets/4dbf6d55-a624-492e-874f-eeefe4cbe635" width="300"/>
 
 
