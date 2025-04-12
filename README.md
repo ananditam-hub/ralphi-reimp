@@ -7,7 +7,8 @@ The above procedure can be time and memory heavy since the file is **10 GB** hug
 ## Result Summary
 On implementing ralphi on chromosomes 4, 14 and 22 (chosen at random), for 5x coverage genome data of NA12878, without reference data, we get the following plot:
 
-<img src="https://raw.githubusercontent.com/yourusername/yourrepo/main/image.png" width="300"/>
+<img src="https://github.com/user-attachments/assets/525d1b35-0a4a-4e61-a1f2-085bc206a045" width="300"/>
+
 
 ## Other Tools Used:
 Samtools: [https://github.com/samtools/samtools.git](https://github.com/samtools/samtools.git) <br/>
