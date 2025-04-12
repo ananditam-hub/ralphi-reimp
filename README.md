@@ -11,4 +11,4 @@ WhatsHap: [https://github.com/whatshap/whatshap/tree/bb7ccfffc655072451d642b4eea
 Longphase:[https://github.com/twolinin/longphase](https://github.com/twolinin/longphase), or you can use the conda package, which is easier to use: run `conda install bioconda::longphase` in terminal.<br/>
 HapCUT2: [https://github.com/vibansal/HapCUT2](https://github.com/vibansal/HapCUT2), or you can use the conda package, which is easier to use: run `conda install bioconda::hapcut2` in terminal.<br/>
 ## Citation
-Battistella, E., Maheshwari, A., Ekim, B., Berger, B., & Popic, V. (2025). ralphi: a deep reinforcement learning framework for haplotype assembly. bioRxiv : the preprint server for biology, 2025.02.17.638151. https://doi.org/10.1101/2025.02.17.638151
+`Battistella, E., Maheshwari, A., Ekim, B., Berger, B., & Popic, V. (2025). ralphi: a deep reinforcement learning framework for haplotype assembly. bioRxiv : the preprint server for biology, 2025.02.17.638151. https://doi.org/10.1101/2025.02.17.638151`
