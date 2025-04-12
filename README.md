@@ -2,7 +2,7 @@
 This repository attempts to reimplement and reproduce the results obtained in the paper titled: 'ralphi: a deep reinforcement learning framework for haplotype assembly'. <br/><br/>
 Use this link to download the .cram file corresponding to NA12878: [International Genome Sample Resource](ftp://ftp.sra.ebi.ac.uk/vol1/run/ERR323/ERR3239334/NA12878.final.cram). <br/>
 Unlike WhatsHap, Ralphi isn't compatible with .cram files. The following commands of samtools can be used to convert the .cram file to .bam file and index the same: `samtools view -b -o output.bam input.cram` and `samtools index input.bam`. The latter results in a .bam.bai file which is the index file and should be placed in the same directory as the .bam. <br/>
-The above procedure can be time and memory heavy since the file is **10 GB** huge, thus it is advised to used suitable resources when using this phasing tool.
+The above procedure can be time and memory heavy since the file is **10 GB** huge, thus it is advised to use suitable resources when using this phasing tool.
 <br/>
 ## Result Summary
 On implementing ralphi on chromosomes 4, 14 and 22 (chosen at random), of NA12878 with 5x coverage, without reference data, we get the following plot:<br/>
@@ -10,7 +10,7 @@ On implementing ralphi on chromosomes 4, 14 and 22 (chosen at random), of NA1287
 <img src="https://github.com/user-attachments/assets/665a5624-118c-44ec-b44b-cd5c0b824298" width="350"/> <br/>
 And for chromosomes 1, 14 and 22 with 30x coverage (we leave out LongPhase here due to longer execution time, will update soon): <br/>
 <img src="https://github.com/user-attachments/assets/4dbf6d55-a624-492e-874f-eeefe4cbe635" width="350"/> <br/>
-Phasing quality, if measured by switch rate, can be seen to improve as we go from low coverage to high coverage for all tools.
+Phasing quality, if measured by switch rate, can be seen to improve as we go from low coverage to high coverage for all tools. Ralphi makes significant improvements in achieving accuracy from its previous formulation as in RefHap based on maximum fragment cut formulation. Its results can be seen comparable to that of HapCUT2, a tool based on Minimum Error Correction (MEC) formulation, another state-of-the-art technique.
 
 
 ## Other Tools Used:
