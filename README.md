@@ -15,8 +15,7 @@ Phasing quality, as measured by switch rate, improves consistently from low to h
 **Time Comparison:** For chr22 of 30x coverage NA12878 human genome the following is the time taken by each of the four* tools: <br/>
 **WhatsHap:** 3m47.923s <br/>
 **Ralphi:** 3m17.995s <br/>
-**HapCUT2:** 2m27.970s* <br/>
-*: for all chromosomes.
+**HapCUT2:** 2m27.970s (for all chromosomes).
 
 
 
