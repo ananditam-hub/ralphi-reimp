@@ -5,9 +5,16 @@ Unlike WhatsHap, Ralphi isn't compatible with .cram files. The following command
 The above procedure can be time and memory heavy since the file is **10 GB** huge, thus it is advised to used suitable resources when using this phasing tool.
 <br/>
 ## Result Summary
-On implementing ralphi on chromosomes 4, 14 and 22 (chosen at random), for 5x coverage genome data of NA12878, without reference data, we get the following plot:
+On implementing ralphi on chromosomes 4, 14 and, 22 (chosen at random), of NA12878 with 5x coverage, without reference data, we get the following plot:
 
-<img src="https://github.com/user-attachments/assets/525d1b35-0a4a-4e61-a1f2-085bc206a045" width="300"/>
+<img src="https://github.com/user-attachments/assets/665a5624-118c-44ec-b44b-cd5c0b824298" width="300"/>
+And for chromosomes 1, 14 and, 22 with 30x coverage
+<img src="https://github.com/user-attachments/assets/4dbf6d55-a624-492e-874f-eeefe4cbe635" width="300"/>
+
+
+
+
+Whatshap
 
 
 ## Other Tools Used:
